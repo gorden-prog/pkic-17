@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио веб-разработчика">
+    <title>Портфолио веб-разработчика</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/js/index.js" defer></script>
+	<script src="assets/js/animations.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="#about" aria-label="На главную">DG<span>.</span></a>
+
+        <nav class="nav">
+            <a href="#about">Обо мне</a>
+            <a href="#projects">Проекты</a>
+            <a href="#skills">Навыки</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero info" id="about"></section>
+
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <span>01</span>
+                <div>
+                    <p>Избранные работы</p>
+                    <h2>Проекты</h2>
+                </div>
+            </div>
+
+            <div class="project-grid">
+				<article class="project-card">
+					<div class="project-number">01</div>
+					<div>
+						<h3>ClassWave</h3>
+						<p>Веб-сервис для просмотра расписания, уведомлений об изменениях, заметок к парам и персональных настроек.</p>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<div class="project-number">02</div>
+					<div>
+						<h3>Telegram-бот расписания</h3>
+						<p>Бот с уведомлениями о изменении в расписании, его просмотр и отзывы о преподавателях</p>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<div class="project-number">03</div>
+					<div>
+						<h3>Панель аналитики</h3>
+						<p>Административный интерфейс со статистикой пользователей, активностью и источниками привлечения.</p>
+					</div>
+				</article> 
+           </div>
+        </section>
+
+        <section class="section skill-section" id="skills">
+            <div class="section-heading">
+                <span>02</span>
+                <div>
+                    <p>Технологии</p>
+                    <h2>Навыки</h2>
+                </div>
+            </div>
+
+            <div class="skill-lines">
+                <div><span>HTML / CSS</span><b>90%</b></div>
+                <div><span>JavaScript</span><b>80%</b></div>
+                <div><span>React</span><b>70%</b></div>
+                <div><span>Python</span><b>65%</b></div>
+                <div><span>FastAPI</span><b>80%</b></div>
+                <div><span>Redis</span><b>90%</b></div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contacts">
+            <div>
+                <p class="kicker">Контакты</p>
+                <h2>Есть идея?<br><a href="https://t.me/keweeq">Давайте обсудим.</a></h2>
+            </div>
+            <a href="#about" class="round-link" aria-label="Вернуться наверх">↑</a>
+        </section>
+    </main>
+
+    <footer>
+        <span>Портфолио веб-разработчика</span>
+        <span>© 2026 · Все права защищены</span>
+    </footer>
+</body>
+</html>
